@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="KATEGORI"
+        android:textSize="30dp"
+        android:textColor="#3E3E3E"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:id="@+id/buttonRecyclerView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#E43EAD99"
+            android:fontFamily="@font/poppins_bold"
+            android:text="RecyclerView" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="App Bar / ActionBar / ToolBar"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonAppBar"
+            android:backgroundTint="#F44336"
+            android:layout_below="@id/buttonRecyclerView"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Navigation Drawer"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonNavigationDrawer"
+            android:layout_below="@id/buttonAppBar"
+            android:backgroundTint="#E91E63"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Bottom Navigation"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonBottomNavigation"
+            android:layout_below="@id/buttonNavigationDrawer"
+            android:backgroundTint="#9C27B0"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Tab Layout"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonTabLayout"
+            android:layout_below="@id/buttonBottomNavigation"
+            android:backgroundTint="#3F51B5"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="ViewModel"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonViewModel"
+            android:layout_below="@id/buttonTabLayout"
+            android:backgroundTint="#4CAF50"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="SharedPreference"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonSharedPreference"
+            android:layout_below="@id/buttonViewModel"
+            android:backgroundTint="#673AB7"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Animation"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonAnimation"
+            android:layout_below="@id/buttonSharedPreference"
+            android:backgroundTint="#2196F3"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Brain Trainer Apps"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonBrainTrainerApps"
+            android:layout_below="@id/buttonAnimation"
+            android:backgroundTint="#7EE407"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Room"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonRoom"
+            android:layout_below="@id/buttonBrainTrainerApps"
+            android:backgroundTint="#FF9800"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Alarm Manager"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonAlarmManager"
+            android:layout_below="@id/buttonRoom"
+            android:backgroundTint="#325B60"
+            />
+
+        <Button
+            android:id="@+id/buttonWorkManager"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonAlarmManager"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#CD9EEF"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Work Manager" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="JSON API and Retrofit"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_bold"
+            android:id="@+id/buttonRetrofit"
+            android:layout_below="@id/buttonWorkManager"
+            android:backgroundTint="#A16262"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
